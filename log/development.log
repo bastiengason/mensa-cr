@@ -82,3 +82,57 @@ Processing by ApplicationController#home as HTML
 Completed 200 OK in 3244ms (Views: 3238.5ms)
 
 
+Started GET "/faq" for 127.0.0.1 at 2018-02-09 20:19:16 +0100
+Processing by PagesController#faq as HTML
+  Rendering pages/faq.html.erb within layouts/application
+  Rendered shared/_navbar_pages.html.erb (35.1ms)
+  Rendered pages/faq.html.erb within layouts/application (47.9ms)
+Completed 500 Internal Server Error in 102ms
+
+
+  
+ActionView::Template::Error (The asset "iggrow-logo.svg" is not present in the asset pipeline.):
+    31:   <div class="container">
+    32:     <div class="row">
+    33:       <div class="col-xs-12 col-sm-12">
+    34:         <%= image_tag("iggrow-logo.svg", class: "nav-logo-mobile") %>
+    35:       </div>
+    36:     </div>
+    37:   </div>
+  
+app/views/shared/_navbar_pages.html.erb:34:in `_app_views_shared__navbar_pages_html_erb___3808696121578221141_70288901655260'
+app/views/pages/faq.html.erb:1:in `_app_views_pages_faq_html_erb___4055007029943299758_70288898036680'
+Started GET "/" for 127.0.0.1 at 2018-02-09 20:19:29 +0100
+Processing by ApplicationController#home as HTML
+  Rendering application/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (10.6ms)
+  Rendered application/home.html.erb within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 29ms
+
+
+  
+ActionView::Template::Error (The asset "iggrow-logo.svg" is not present in the asset pipeline.):
+    31:   <div class="container">
+    32:     <div class="row">
+    33:       <div class="col-xs-12 col-sm-12">
+    34:         <%= image_tag("iggrow-logo.svg", class: "nav-logo-mobile") %>
+    35:       </div>
+    36:     </div>
+    37:   </div>
+  
+app/views/shared/_navbar.html.erb:34:in `_app_views_shared__navbar_html_erb___592685404077389885_70288842461840'
+app/views/application/home.html.erb:2:in `_app_views_application_home_html_erb___722343958061554317_70288814343920'
+Started GET "/" for 127.0.0.1 at 2018-02-09 20:20:11 +0100
+Processing by ApplicationController#home as HTML
+  Rendering application/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.5ms)
+  Rendered application/_banner.html.erb (0.7ms)
+  Rendered application/_why.html.erb (6.6ms)
+  Rendered application/_how.html.erb (6.6ms)
+  Rendered application/_pricing.html.erb (9.6ms)
+  Rendered application/_contact.html.erb (3.7ms)
+  Rendered shared/_footer.html.erb (12.6ms)
+  Rendered application/home.html.erb within layouts/application (88.1ms)
+Completed 200 OK in 5500ms (Views: 5496.0ms)
+
+
