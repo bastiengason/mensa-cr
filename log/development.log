@@ -164,3 +164,31 @@ Completed 200 OK in 2063ms (Views: 1656.1ms)
 Completed 200 OK in 1271ms (Views: 1265.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-26 01:56:33 +0100
+Processing by ApplicationController#home as HTML
+  Rendering application/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (635.9ms)
+  Rendered application/_banner.html.erb (1.5ms)
+  Rendered application/_why.html.erb (4.0ms)
+  Rendered application/_how.html.erb (5.7ms)
+  Rendered application/_pricing.html.erb (8.7ms)
+  Rendered application/_contact.html.erb (3.7ms)
+  Rendered shared/_footer.html.erb (4.2ms)
+  Rendered application/home.html.erb within layouts/application (705.7ms)
+Completed 200 OK in 1356ms (Views: 926.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-26 01:58:54 +0100
+Processing by ApplicationController#home as HTML
+  Rendering application/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (405.1ms)
+  Rendered application/_banner.html.erb (0.9ms)
+  Rendered application/_why.html.erb (2.2ms)
+  Rendered application/_how.html.erb (2.7ms)
+  Rendered application/_pricing.html.erb (6.7ms)
+  Rendered application/_contact.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (2.2ms)
+  Rendered application/home.html.erb within layouts/application (456.5ms)
+Completed 200 OK in 1099ms (Views: 640.6ms)
+
+
